@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up Form</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="section-1">
+      <img src="images/section-1-background.avif" alt="" />
+      <div class="title-background">
+        <img src="images/odin-lined.png" alt="" />
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <div class="section-2">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="" method="get">
+        <label for="first-name">FIRST NAME</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder="John"
+        />
+        <label for="last-name">LAST NAME</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Doe" />
+        <label for="email">EMAIL</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="name@example.com"
+        />
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" />
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" />
+        <label for="confirm-password">CONFIRM PASSWORD</label>
+        <input type="password" id="confirm-password" name="confirm-password" />
+        <button type="submit">CREATE ACCOUNT</button>
+      </form>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </body>
 </html>
