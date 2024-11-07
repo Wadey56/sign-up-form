@@ -53,3 +53,8 @@ body {
 .section-1 a:visited {
     color: white;
 }
+
+.intro {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
