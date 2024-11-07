@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    margin: 0;
     display: flex;
     flex-direction: row;
+    line-height: 1.5;
 }
 
 .section-1 {
@@ -57,4 +58,8 @@ body {
 .intro {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+input, button {
+    font: inherit;
 }
