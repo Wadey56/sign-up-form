@@ -82,3 +82,15 @@ form {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+form + p {
+    font-weight: 600;
+}
+
+.section-2 a {
+    color: rgb(80, 125, 20);
+}
+
+.section-2 a:visited {
+    color: rgb(80, 125, 20);
+}
