@@ -71,6 +71,9 @@ input, button {
     height: 100vh;
     justify-content: center;
     gap: 1.5rem;
+}
+
+.section-2 > p {
     padding-left: 2rem;
     padding-right: 12rem;
 }
@@ -81,6 +84,7 @@ form {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 1px solid #596D48;
 }
 
 form + p {
@@ -88,11 +92,11 @@ form + p {
 }
 
 .section-2 a {
-    color: rgb(80, 125, 20);
+    color: #596D48;
 }
 
 .section-2 a:visited {
-    color: rgb(80, 125, 20);
+    color: #596D48;
 }
 
 .input-wrapper {
