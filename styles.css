@@ -125,4 +125,6 @@ button {
     font-size: 0.8rem;
     font-weight: 600;
     padding: 0.5rem 2rem;
+    width: 25%;
+    margin-left: 2rem;
 }
