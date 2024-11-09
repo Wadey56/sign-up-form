@@ -138,3 +138,13 @@ input:user-invalid {
     outline: none;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.15); 
 }
+
+.validation-error {
+    display: none;
+}
+
+input:user-invalid + .validation-error {
+    display: block;
+    color: red;
+    font-size: 0.8rem;
+}
