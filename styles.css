@@ -132,3 +132,9 @@ button {
 input:user-invalid {
     border-color: red;
 }
+
+.input-wrapper input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.15); 
+}
